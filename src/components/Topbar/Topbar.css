@@ -1,0 +1,68 @@
+.topbarContainer {
+  display: flex;
+  background: rgb(136, 211, 245);
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+}
+.topbarLeft {
+  display: flex;
+  flex: 3;
+}
+.topbarCenter {
+  display: flex;
+  flex: 4;
+}
+.topbarRight {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  width: 350px;
+  height: 24px;
+  padding-left: 5px;
+}
+
+.searchInput {
+  border: none;
+}
+
+.searchInput:focus-visible {
+  outline: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.topbarIcon {
+  color: white;
+}
+
+.topbarIconBadge {
+  color: white;
+  background-color: red;
+  height: 18px;
+  width: 18px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.topbarIconContainer {
+  display: flex;
+}
+
+.topbarImg {
+  height: 28px;
+}
