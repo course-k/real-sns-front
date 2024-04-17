@@ -1,0 +1,29 @@
+.postedField {
+  width: 100%;
+}
+.postedFieldWrapper {
+  box-shadow: 4px 2px 5px 2px rgba(0, 0, 0, 0.4);
+  margin: 10px auto;
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.postedFieldPerson {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.postedFieldTextarea {
+  display: flex;
+  align-items: center;
+}
+
+.postedFieldInput {
+  border: none;
+  background-color: inherit;
+}
+
+.postedFieldInput:focus-visible {
+  outline: none;
+}
