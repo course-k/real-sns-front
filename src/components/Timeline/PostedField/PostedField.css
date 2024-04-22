@@ -27,3 +27,27 @@
 .postedFieldInput:focus-visible {
   outline: none;
 }
+
+.iconArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postOptions {
+  display: flex;
+}
+
+.postOption {
+  display: flex;
+  align-items: center;
+}
+
+.postButton {
+  height: 32px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(136, 211, 245);
+  color: white;
+}
