@@ -1,0 +1,15 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+.fs10 {
+  font-size: 10px;
+}
+.fs12 {
+  font-size: 12px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
